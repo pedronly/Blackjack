@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #e74c3c; /* Vermelho suave */
+    color: #ecf0f1;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#app {
+    background-color: #c0392b; /* Tom mais escuro de vermelho */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+h1 {
+    color: #ecf0f1;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+#bet-section {
+    margin-bottom: 20px;
+}
+
+#bet-input {
+    padding: 8px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #27ae60;
+    color: #ecf0f1;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #219653;
+}
+
+#dealer-container,
+#player-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hand {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    background-color: #ecf0f1;
+    border: 2px solid #ecf0f1;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    font-size: 16px;
+    color: #2c3e50;
+    width: 50px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dealer-hand {
+    height: 120px;
+}
+
+#player-hand {
+    height: 120px;
+}
+
+#buttons {
+    margin: 20px 0;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ecf0f1;
+}
+
+.card.face-down {
+    background-color: #3498db; /* Cor de fundo da carta virada para baixo */
+    color: #ecf0f1; /* Cor do texto da carta virada para baixo */
+}
+
+.score {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+#player-money-display {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #ecf0f1;
+}

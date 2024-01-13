@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Blackjack</title>
+</head>
+<body>
+    <div id="app">
+        <h1>Blackjack</h1>
+        <div id="dealer-container">
+            <h2>Mão da Mesa</h2>
+            <div id="dealer-hand" class="hand"></div>
+            <div id="dealer-score" class="score"></div>
+        </div>
+        <div id="player-container">
+            <h2>Sua Mão</h2>
+            <div id="player-hand" class="hand"></div>
+            <div id="player-score" class="score"></div>
+            <div id="player-money">Dinheiro: $100</div>
+            <label for="bet-input">Aposta: </label>
+            <input type="number" id="bet-input" min="1" max="100">
+        </div>
+        <div id="buttons">
+            <button id="deal-button">Distribuir</button>
+            <button id="hit-button">Comprar</button>
+            <button id="stand-button">Parar</button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
